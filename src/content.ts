@@ -308,10 +308,6 @@ export const content = {
           {
             "label": "Email Us (shalomben725@gmail.com)",
             "href": "mailto:shalomben725@gmail.com"
-          },
-          {
-            "label": "Contact Page",
-            "href": "/contact"
           }
         ]
       }
