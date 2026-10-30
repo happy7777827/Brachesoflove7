@@ -175,6 +175,53 @@ img, svg, video { display: block; }
   z-index: 0;
 }
 
+@media (max-width: 767px) {
+  .hero {
+    contain: layout paint;
+  }
+
+  .bg-video-hero {
+    object-position: center center;
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    perspective: 1000px;
+    will-change: transform;
+    pointer-events: none;
+  }
+
+  .hero .liquid-glass {
+    background-blend-mode: normal;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+  }
+
+  .hero-kicker,
+  .badge .label,
+  .partners-row {
+    animation: none;
+    text-shadow:
+      0 2px 10px rgba(0, 0, 0, 0.95),
+      0 0 16px rgba(255, 248, 225, 0.5);
+  }
+
+  .headline {
+    animation: none;
+    text-shadow:
+      0 2px 16px rgba(0, 0, 0, 0.95),
+      0 0 24px rgba(255, 250, 230, 0.65),
+      0 0 42px rgba(255, 220, 140, 0.4);
+  }
+
+  .subheadline.in-view {
+    animation: fadeRise 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    text-shadow:
+      0 2px 10px rgba(0, 0, 0, 0.95),
+      0 0 16px rgba(255, 248, 225, 0.45);
+  }
+}
+
 .video-overlay {
   position: absolute;
   inset: 0;
