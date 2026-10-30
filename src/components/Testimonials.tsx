@@ -6,7 +6,7 @@ export default function Testimonials() {
   const ref = useReveal<HTMLElement>();
 
   return (
-    <section className="section cosmic-alt" ref={ref} aria-label="Voyagers">
+    <section className="section cosmic-alt" ref={ref} aria-label="Leadership">
       <div className="section-head">
         <span className="eyebrow liquid-glass reveal">{testimonials.eyebrow}</span>
         <h2 className="section-title reveal">{testimonials.heading}</h2>

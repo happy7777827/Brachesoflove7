@@ -1,35 +1,32 @@
 import { useEffect, useRef } from "react";
 
-/** Adds the "visible" class to `.reveal` descendants when they intersect. */
-export function useReveal<T extends HTMLElement>() {
+export function useReveal<T extends HTMLElement = HTMLElement>() {
   const ref = useRef<T>(null);
 
   useEffect(() => {
     const root = ref.current;
     if (!root) return;
-    const elements = Array.from(root.querySelectorAll<HTMLElement>(".reveal"));
-    if (root.classList.contains("reveal")) elements.push(root);
-    if (elements.length === 0) return;
 
+    const els = root.querySelectorAll<HTMLElement>(".reveal");
     if (!("IntersectionObserver" in window)) {
-      elements.forEach((el) => el.classList.add("visible"));
+      els.forEach((el) => el.classList.add("visible", "reveal-shown"));
       return;
     }
 
-    const observer = new IntersectionObserver(
+    const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
-            observer.unobserve(entry.target);
+            entry.target.classList.add("visible", "reveal-shown");
+            io.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.1 }
     );
 
-    elements.forEach((el) => observer.observe(el));
-    return () => observer.disconnect();
+    els.forEach((el) => io.observe(el));
+    return () => io.disconnect();
   }, []);
 
   return ref;

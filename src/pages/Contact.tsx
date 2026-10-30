@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 
 export default function ContactPage() {
   return (
-    <div>
+    <div className="cosmic page-top-offset">
       <Navbar />
       <main>
         <Booking />

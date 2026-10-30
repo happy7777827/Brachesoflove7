@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 export default function AboutPage() {
   return (
-    <div>
+    <div className="cosmic page-top-offset">
       <Navbar />
       <main>
         <About />

@@ -9,28 +9,56 @@ export default function BlogPostPage() {
   const post = blog.posts.find((p) => p.slug === slug);
 
   return (
-    <div>
+    <div className="cosmic page-top-offset">
       <Navbar />
-      <main className="mx-auto w-full max-w-[68ch] px-6 py-16 md:py-24">
-        {post ? (
-          <article>
-            <p className="text-sm opacity-60">{post.date}</p>
-            <h1 className="mt-2 text-4xl md:text-5xl font-bold tracking-tight">{post.title}</h1>
-            <div className="mt-8 flex flex-col gap-5">
-              {post.body.map((para, i) => (
-                <p key={i} className="text-lg leading-relaxed opacity-85">{para}</p>
-              ))}
-            </div>
-          </article>
-        ) : (
-          <div>
-            <h1 className="text-3xl font-bold tracking-tight">{blog.missingTitle}</h1>
-            <p className="mt-3 opacity-75">{blog.missingBody}</p>
+      <main className="section" style={{ paddingTop: "2rem" }}>
+        <div className="blog-article">
+          <div style={{ marginBottom: "2rem" }}>
+            <Link to="/blog" className="eyebrow liquid-glass">
+              ← {blog.backToIndex}
+            </Link>
           </div>
-        )}
-        <Link to="/blog" className="mt-12 inline-block font-medium underline underline-offset-4">
-          {blog.backToIndex}
-        </Link>
+
+          {post ? (
+            <article className="liquid-glass" style={{ padding: "2.5rem 2rem", borderRadius: "1.75rem" }}>
+              <div className="blog-meta">
+                {post.category} · {post.date}
+              </div>
+              <h1 className="section-title" style={{ maxWidth: "100%", marginTop: "0.5rem" }}>
+                {post.title}
+              </h1>
+
+              <div className="blog-article-hero liquid-glass">
+                <img src={post.image} alt={post.title} />
+              </div>
+
+              <div className="blog-article-body">
+                {post.body.map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
+
+              {post.gallery && post.gallery.length > 0 && (
+                <div className="blog-gallery">
+                  {post.gallery.map((imgUrl, idx) => (
+                    <div key={idx} className="blog-gallery-item liquid-glass">
+                      <img
+                        src={imgUrl}
+                        alt={`${post.title} illustration ${idx + 1}`}
+                        loading="lazy"
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </article>
+          ) : (
+            <div className="section-head">
+              <h1 className="section-title">{blog.missingTitle}</h1>
+              <p className="section-sub">{blog.missingBody}</p>
+            </div>
+          )}
+        </div>
       </main>
       <Footer />
     </div>

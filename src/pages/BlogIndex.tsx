@@ -6,24 +6,50 @@ import Footer from "../components/Footer";
 export default function BlogIndexPage() {
   const blog = content.blog;
   return (
-    <div>
+    <div className="cosmic page-top-offset">
       <Navbar />
-      <main className="mx-auto w-full max-w-[68ch] px-6 py-16 md:py-24">
-        <h1 className="text-4xl md:text-5xl font-bold tracking-tight">{blog.title}</h1>
-        <p className="mt-4 text-lg opacity-70">{blog.intro}</p>
-        <div className="mt-12 flex flex-col">
+      <main className="section" style={{ paddingTop: "2rem" }}>
+        <div className="section-head">
+          <span className="eyebrow liquid-glass">Fresh from the Ministry</span>
+          <h1 className="section-title" style={{ maxWidth: "44rem" }}>
+            {blog.title}
+          </h1>
+          <p className="section-sub">{blog.intro}</p>
+        </div>
+
+        <div className="blog-list">
           {blog.posts.map((post) => (
-            <article key={post.slug} className="py-8 border-t border-current/15">
-              <p className="text-sm opacity-60">{post.date}</p>
-              <h2 className="mt-2 text-2xl font-semibold tracking-tight">
-                <Link to={"/blog/" + post.slug} className="hover:opacity-70 transition-opacity">
-                  {post.title}
-                </Link>
-              </h2>
-              <p className="mt-3 opacity-75 leading-relaxed">{post.excerpt}</p>
-              <Link to={"/blog/" + post.slug} className="mt-4 inline-block font-medium underline underline-offset-4">
-                {blog.readMore}
+            <article key={post.slug} className="blog-item liquid-glass">
+              <Link to={"/blog/" + post.slug} className="blog-thumb">
+                <img src={post.image} alt={post.title} loading="lazy" />
               </Link>
+              <div>
+                <div className="blog-meta">
+                  {post.category} · {post.date}
+                </div>
+                <h2>
+                  <Link to={"/blog/" + post.slug}>{post.title}</Link>
+                </h2>
+                <p>{post.excerpt}</p>
+                <Link
+                  to={"/blog/" + post.slug}
+                  className="cta-primary liquid-glass-strong"
+                >
+                  {blog.readMore}
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden="true"
+                  >
+                    <path d="M7 17L17 7" />
+                    <path d="M7 7h10v10" />
+                  </svg>
+                </Link>
+              </div>
             </article>
           ))}
         </div>

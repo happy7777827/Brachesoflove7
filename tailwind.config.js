@@ -16,10 +16,6 @@ export default {
         foreground: '#f8fafc',
         muted: '#94a3b8',
       },
-      animation: {
-        'fade-up': 'fade-up 0.7s cubic-bezier(0.16,1,0.3,1) forwards',
-        'fade-in': 'fade-in 0.5s ease-out forwards',
-      },
     },
   },
   plugins: [],

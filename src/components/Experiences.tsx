@@ -1,15 +1,15 @@
 import { content } from "../content";
 import { useReveal } from "../useReveal";
-import { Rocket, Orbit, Moon, Gauge, Telescope, LifeBuoy } from "lucide-react";
+import { BookOpen, Sparkles, Users, Compass, Calendar, HeartHandshake } from "lucide-react";
 
-const ICONS = [Rocket, Orbit, Moon, Gauge, Telescope, LifeBuoy];
+const ICONS = [BookOpen, Sparkles, Users, Compass, Calendar, HeartHandshake];
 
 export default function Experiences() {
   const { experiences, valueProps } = content;
   const ref = useReveal<HTMLElement>();
 
   return (
-    <section className="section cosmic" ref={ref} aria-label="Experiences">
+    <section id="offerings" className="section cosmic" ref={ref} aria-label="Curated Offerings">
       <div className="section-head">
         <span className="eyebrow liquid-glass reveal">{experiences.eyebrow}</span>
         <h2 className="section-title reveal">{experiences.heading}</h2>

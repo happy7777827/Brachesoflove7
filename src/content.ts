@@ -1,318 +1,402 @@
 export const content = {
-  "brandName": "Space Voyage",
-  "tagline": "Maiden Crewed Voyage to Mars Arrives 2026",
-  "heroHeadline": "Venture Past Our Sky Across the Universe",
-  "heroSubhead": "Discover the universe in ways once unimaginable. Our pioneering vessels and breakthrough engineering bring deep-space exploration within reach—secure and extraordinary.",
-  "ctaLabel": "Start Your Voyage",
-  "about": "Space Voyage was founded to make the cosmos a place people visit, not just imagine. Every mission pairs re-flown, human-rated vessels with a crew of veteran astronauts, so your first step off Earth is as safe as it is unforgettable.",
+  "brandName": "Branches of Love",
+  "tagline": "A Fellowship for those seeking deeper roots and higher wisdom.",
+  "heroHeadline": "Shalom in Messiach",
+  "heroSubhead": "To love and respect everyone for the sake of unity and peace. A serene space for spiritual growth, deep reflection, and exploring the ancient paths of biblical wisdom in a modern world.",
+  "ctaLabel": "Begin the Journey",
+  "about": "Cultivating a Deeper Connection according to the Divine Word of God, with the guidance and strength of the Holy Spirit. Branches of Love Ministry is a Non-Denominational sanctuary dedicated to serving God and His people, deeply rooted in the full authority of the Scriptures from Genesis to Revelation.",
+  "aboutSecondary": "We provide resources, teachings, and a contemplative community designed to help you peel back the layers of modern distraction and anchor yourself in enduring spiritual truths. Our vision is to weave the ancient Biblical threads of love, wisdom, and grace into the fabric of modern life.",
+  "scriptureQuote": {
+    "hindi": "“इसी प्रकार हर एक अच्छा पेड़ अच्छा फल लाता है और निकम्मा पेड़ बुरा फल लाता है।”",
+    "english": "“So every good tree yields good fruit, but a rotten tree yields wicked fruit.”",
+    "reference": "मत्ती (Matthew) 7:17"
+  },
+  "galleryImages": [
+    {
+      "src": "https://www.branchesoflove7.org/about-hero-image.jpeg",
+      "alt": "Branches of Love Ministry Sanctuary"
+    },
+    {
+      "src": "https://www.branchesoflove7.org/gallery-image-6.jpeg",
+      "alt": "Branches of Love Community"
+    },
+    {
+      "src": "https://www.branchesoflove7.org/gallery-image-1.jpeg",
+      "alt": "Ministry Fellowship Gathering 1"
+    },
+    {
+      "src": "https://www.branchesoflove7.org/gallery-image-2.jpeg",
+      "alt": "Ministry Fellowship Gathering 2"
+    },
+    {
+      "src": "https://www.branchesoflove7.org/gallery-image-3.jpeg",
+      "alt": "Ministry Fellowship Gathering 3"
+    },
+    {
+      "src": "https://www.branchesoflove7.org/gallery-image-4.jpeg",
+      "alt": "Ministry Fellowship Gathering 4"
+    },
+    {
+      "src": "https://www.branchesoflove7.org/gallery-image-5.jpeg",
+      "alt": "Ministry Fellowship Gathering 5"
+    },
+    {
+      "src": "https://www.branchesoflove7.org/gallery-image-7.jpeg",
+      "alt": "Ministry Fellowship Gathering 7"
+    }
+  ],
   "valueProps": [
     {
-      "title": "Orbital Suites",
-      "body": "Sleep among the stars in pressurized panoramic cabins engineered for zero-gravity comfort, with Earth turning silently beneath you."
+      "title": "Biblical Hebrew Foundations",
+      "body": "Unlock the profound depths of the original texts. A meditative immersion course designed for beginners in Hindi and Marathi, from Aleph to Tav."
     },
     {
-      "title": "Guided Spacewalks",
-      "body": "Step outside the airlock tethered to a veteran mission specialist and float freely against the infinite black of deep space."
+      "title": "The Bread of Life",
+      "body": "Follow our daily reflection and ministry blog for scriptural wisdom, Early Church history, and teachings written for everyday spiritual life."
     },
     {
-      "title": "Lunar Descents",
-      "body": "Board our reusable landers for a low-altitude sweep across the Sea of Tranquility and the far side of the Moon."
+      "title": "Day of Gathering (Shabbat)",
+      "body": "Every Saturday: First Fellowship 8:00 PM to 9:30 PM & Second Fellowship 9:30 PM to 11:30 PM. Intimate online gatherings focused on contemplative prayer."
     },
     {
-      "title": "Zero-G Training",
-      "body": "Prepare like a career astronaut with parabolic flights, centrifuge sessions, and full mission rehearsals before liftoff."
+      "title": "The Architecture of Peace",
+      "body": "A digital workbook guiding you through structuring your daily life around spiritual rhythms and Biblical rest (Sabbath) rather than societal demands."
     },
     {
-      "title": "Deep-Space Observatory",
-      "body": "Command a private optical array to chart nebulae and distant worlds with clarity no ground telescope can match."
+      "title": "Sacred Calendar (Moedim)",
+      "body": "Study the Biblical Hebrew calendar — Feasts of the LORD YHWH, Shabbat cycles, Counting of the Omer, and appointed times in their scriptural context."
     },
     {
-      "title": "Return Concierge",
-      "body": "From splashdown recovery to post-flight medical care, our ground crew handles every detail of your journey home."
+      "title": "Test The Spirit Affiliation",
+      "body": "Proudly affiliated with Test The Spirit and Peace Army Foundation. Together we stand grounded in the Word, bringing illumination and biblical discernment."
     }
   ],
   "nav": {
-    "logoLetter": "s",
+    "logoLetter": "b",
     "links": [
       {
         "label": "Home",
-        "href": "#"
+        "href": "/"
       },
       {
-        "label": "Voyages",
-        "href": "#"
+        "label": "About Us",
+        "href": "/about"
       },
       {
-        "label": "Worlds",
-        "href": "#"
+        "label": "Teachings",
+        "href": "#offerings"
       },
       {
-        "label": "Innovation",
-        "href": "#"
+        "label": "Blog",
+        "href": "/blog"
       },
       {
-        "label": "Plan Launch",
-        "href": "#"
+        "label": "Contact",
+        "href": "/contact"
       }
     ],
-    "ctaLabel": "Claim a Spot",
-    "ctaHref": "#"
+    "ctaLabel": "Find a Gathering",
+    "ctaHref": "https://us02web.zoom.us/j/3027026196"
   },
   "hero": {
-    "videoSrc": "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260306_115329_5e00c9c5-4d69-49b7-94c3-9c31c60bb644.mp4",
-    "badgeChip": "New",
-    "badgeLabel": "Maiden Crewed Voyage to Mars Arrives 2026",
-    "headline": "Venture Past Our Sky Across the Universe",
-    "subhead": "Discover the universe in ways once unimaginable. Our pioneering vessels and breakthrough engineering bring deep-space exploration within reach—secure and extraordinary.",
-    "ctaPrimary": "Start Your Voyage",
-    "ctaPrimaryHref": "#",
-    "ctaSecondary": "View Liftoff",
-    "ctaSecondaryHref": "#"
+    "videoSrc": "/assets/aistudio/gemini_generated_video_14f8aae2_no_watermark_526b553a.mp4",
+    "kicker": "Branches of Love Ministry",
+    "badgeChip": "Psalm 1:3",
+    "badgeLabel": "“He is like a tree planted by streams of water...”",
+    "headline": "SHALOM IN MESSIACH",
+    "subhead": "To love and respect everyone for the sake of unity and peace. A serene space for spiritual growth, deep reflection, and exploring the ancient paths of biblical wisdom in a modern world.",
+    "ctaPrimary": "Begin the Journey",
+    "ctaPrimaryHref": "/about",
+    "ctaSecondary": "Explore Ministry",
+    "ctaSecondaryHref": "/blog"
   },
   "partners": {
-    "chip": "Collaborating with top aerospace pioneers globally",
+    "chip": "Sacred Foundation & Ministry Affiliations",
     "names": [
-      "Aeon",
-      "Vela",
-      "Apex",
-      "Orbit",
-      "Zeno"
+      "Test The Spirit",
+      "Peace Army Foundation",
+      "Biblical Hebrew",
+      "Shabbat Fellowship",
+      "The Living Word"
     ]
   },
   "experiences": {
-    "eyebrow": "Experiences",
-    "heading": "Voyages Beyond Imagination",
-    "subhead": "Six ways to leave the ground behind and meet the universe on its own terms."
+    "eyebrow": "Curated Offerings",
+    "heading": "Sacred Learning & Foundations",
+    "subhead": "“So every good tree yields good fruit, but a rotten tree yields wicked fruit.” — मत्ती (Matthew) 7:17"
   },
   "destinations": {
-    "eyebrow": "Destinations",
-    "heading": "Worlds Within Reach",
+    "eyebrow": "Ministry & Resources",
+    "heading": "The Living Word in Action",
     "items": [
       {
-        "name": "Low Earth Orbit",
-        "tagline": "The blue marble from 400km up.",
-        "distance": "400 km",
-        "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=900&fit=crop"
+        "name": "Biblical Hebrew",
+        "tagline": "Journey into the ancient scriptures in Hindi & Marathi — from Aleph to Tav.",
+        "distance": "Sacred Languages",
+        "image": "https://www.branchesoflove7.org/Hebrew-learn-image-3.jpeg"
       },
       {
-        "name": "The Moon",
-        "tagline": "Walk the Sea of Tranquility.",
-        "distance": "384,400 km",
-        "image": "https://images.unsplash.com/photo-1522030299830-16b8d3d049fe?w=800&h=900&fit=crop"
+        "name": "Branches of Love Fellowship",
+        "tagline": "Rooted in grace, growing in authentic community and Shabbat gatherings.",
+        "distance": "Chembur, Mumbai 400071",
+        "image": "https://www.branchesoflove7.org/gallery-image-6.jpeg"
       },
       {
-        "name": "Mars Transit",
-        "tagline": "The red planet, at last.",
-        "distance": "225M km",
-        "image": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?w=800&h=900&fit=crop"
+        "name": "Test The Spirit Affiliation",
+        "tagline": "Bringing illumination, biblical discernment, and spiritual resources globally.",
+        "distance": "Ministry Partner",
+        "image": "https://www.branchesoflove7.org/theSpiritthumb.jpeg"
+      },
+      {
+        "name": "400 Years of Silence",
+        "tagline": "In Marathi (400 वर्षाचा शांततेचा काळ) — Exploring Early Church & Ancient History.",
+        "distance": "1 June 2026",
+        "image": "https://cdn.sanity.io/images/sf11mtl5/production/82c6edef13182e434cb9af123be16d6c55e42429-736x414.jpg?w=900"
+      },
+      {
+        "name": "Born Again",
+        "tagline": "born again ये शब्द मसीह प्रभु और प्रेरितों को बोलने की जरूरत क्यों पड़ी होंगी??",
+        "distance": "Wisdom · 18 April 2026",
+        "image": "https://cdn.sanity.io/images/sf11mtl5/production/8757a129322bec91508ea488f579998afc8d4148-736x736.jpg?w=900"
+      },
+      {
+        "name": "Counting of the Omer",
+        "tagline": "पहले फलों के पर्व से लेकर — Studying the appointed Feasts of the LORD YHWH.",
+        "distance": "Feasts of YHWH · 17 April 2026",
+        "image": "https://cdn.sanity.io/images/sf11mtl5/production/bef17042fa7f0a579e4e4bb8441d437853ae875d-4830x6250.png?w=900"
       }
     ]
   },
   "journey": {
-    "eyebrow": "The Journey",
-    "heading": "From Booking to Liftoff",
+    "eyebrow": "Course Framework",
+    "heading": "What You Will Learn in Biblical Hebrew",
     "steps": [
       {
-        "title": "Reserve Your Seat",
-        "body": "Choose a voyage and lock in your launch window with a fully refundable deposit."
+        "title": "Introduction to Hebrew History",
+        "body": "Explore the historical background, Biblical calendar, and significance of the ancient Hebrew language."
       },
       {
-        "title": "Train & Prepare",
-        "body": "Complete a two-week astronaut program covering safety, zero-G, and mission ops."
+        "title": "Aleph to Tav (Consonants)",
+        "body": "Master all 22 Hebrew consonants with their pictographic meanings and transliterations for Hindi & Marathi speakers."
       },
       {
-        "title": "Launch Day",
-        "body": "Suit up at our spaceport and ride our human-rated vessel to orbit and beyond."
+        "title": "Niqqud (Vowels) & Grammar",
+        "body": "Understand the vowel pointings essential for reading and grasp core grammatical structures of the Scriptures."
       },
       {
-        "title": "Return Home",
-        "body": "Splash down safely and debrief with our flight crew over the story of a lifetime."
+        "title": "Worksheets & Online Classes",
+        "body": "Reinforce your learning with free downloadable study worksheets and interactive online classes."
       }
     ]
   },
   "stats": [
     {
-      "value": "140+",
-      "label": "Crewed Launches"
+      "value": "22",
+      "label": "Hebrew Consonants (Aleph to Tav)"
     },
     {
-      "value": "6",
-      "label": "Destinations"
+      "value": "Shabbat",
+      "label": "Every Saturday (8:00 PM – 11:30 PM)"
     },
     {
-      "value": "100%",
-      "label": "Safe Returns"
+      "value": "66",
+      "label": "Books from Genesis to Revelation"
     },
     {
-      "value": "2026",
-      "label": "First Mars Voyage"
+      "value": "400071",
+      "label": "Chembur, Mumbai Sanctuary"
     }
   ],
   "testimonials": {
-    "eyebrow": "Voyagers",
-    "heading": "Stories From Orbit",
+    "eyebrow": "Leadership & Partners",
+    "heading": "Our Team & Ministry Affiliation",
     "quotes": [
       {
-        "text": "Watching sunrise sixteen times in a single day rewired how I see our planet. Space Voyage made the impossible feel routine and utterly safe.",
-        "name": "Dr. Elena Marsh",
-        "role": "Astrophysicist, Voyage 118",
-        "photoSrc": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=88&h=88&fit=crop&crop=face",
-        "photoAlt": "Dr. Elena Marsh"
+        "text": "Dedicated to serving God and His people, living by and sharing the complete truth of the Holy Scriptures from Genesis to Revelation as the foundation for our lives and service.",
+        "name": "Bro. Sandesh Randive",
+        "role": "President, Branches of Love Ministry",
+        "photoSrc": "https://www.branchesoflove7.org/Sandesh%20Randive.jpeg",
+        "photoAlt": "Bro. Sandesh Randive"
       },
       {
-        "text": "The spacewalk was transcendent, but it was the crew's precision that let me relax into the moment. Every second was handled with care.",
-        "name": "Julian Okafor",
-        "role": "Founder, Voyage 132",
-        "photoSrc": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=88&h=88&fit=crop&crop=face",
-        "photoAlt": "Julian Okafor"
+        "text": "Nurturing authentic spiritual growth, reverence for Scripture, and a contemplative fellowship rooted in grace and community.",
+        "name": "Bro. Shanku Dey",
+        "role": "Vice President, Branches of Love Ministry",
+        "photoSrc": "https://www.branchesoflove7.org/shanku.jpeg",
+        "photoAlt": "Bro. Shanku Dey"
+      },
+      {
+        "text": "Serving and guiding our fellowship with a shared commitment to compassionate living, biblical literacy, and Sabbath rest.",
+        "name": "Bro. Santosh Gowala",
+        "role": "General Secretary, Branches of Love Ministry",
+        "photoSrc": "https://www.branchesoflove7.org/Bro%20Santosh%20Gowala.jpeg",
+        "photoAlt": "Bro. Santosh Gowala"
+      },
+      {
+        "text": "Supporting community reflections, study resources, and spiritual gatherings that anchor believers in enduring biblical truths.",
+        "name": "Sis. Rupal Dabi & Bro. Akhil Kambli",
+        "role": "Ministry Members, Branches of Love Ministry",
+        "photoSrc": "https://www.branchesoflove7.org/sister.jpeg",
+        "photoAlt": "Sis. Rupal Dabi"
+      },
+      {
+        "text": "Standing together in national and international partnership to promote unity, peace, and faithful stewardship of the Word.",
+        "name": "Rev. Dr. A. K. Parashar",
+        "role": "Founder of Peace Army Foundation (Partner)",
+        "photoSrc": "https://www.branchesoflove7.org/dr%20ak.jpeg",
+        "photoAlt": "Rev. Dr. A. K. Parashar"
+      },
+      {
+        "text": "Together we stand grounded in the Word, bringing illumination, biblical discernment, and profound spiritual resources to the global community.",
+        "name": "Rev. Dr. Shahid Hanif",
+        "role": "Doctorate in Theology · Founder of Test the Spirit - Canada",
+        "photoSrc": "https://www.branchesoflove7.org/Shahid%20Hanif.jpeg",
+        "photoAlt": "Rev. Dr. Shahid Hanif"
       }
     ]
   },
   "booking": {
-    "heading": "Your Seat Among the Stars Awaits",
-    "subhead": "Launch windows are limited and fill fast. Reserve now and begin your astronaut journey today.",
-    "ctaLabel": "Reserve Your Voyage"
+    "heading": "Day of Gathering — Every Saturday (Shabbat)",
+    "subhead": "First Fellowship: 8:00 PM to 9:30 PM · Second Fellowship: 9:30 PM to 11:30 PM. Join our intimate online gatherings focused on contemplative prayer and shared wisdom.",
+    "ctaLabel": "Find a Gathering on Zoom",
+    "ctaHref": "https://us02web.zoom.us/j/3027026196"
   },
   "footer": {
-    "tagline": "Pioneering crewed deep-space travel with re-flown, human-rated vessels and veteran astronaut crews.",
+    "tagline": "A Fellowship for those seeking deeper roots and higher wisdom. Chembur, Mumbai 400071.",
     "columns": [
       {
-        "title": "Voyages",
+        "title": "Ministry",
         "links": [
           {
-            "label": "Orbital Suites",
-            "href": "#"
+            "label": "About Us",
+            "href": "/about"
           },
           {
-            "label": "Lunar Descents",
-            "href": "#"
+            "label": "Test The Spirit (Affiliation)",
+            "href": "https://testthespirit.org/"
           },
           {
-            "label": "Mars Transit",
-            "href": "#"
-          },
-          {
-            "label": "Zero-G Training",
-            "href": "#"
+            "label": "Shabbat Gathering",
+            "href": "https://us02web.zoom.us/j/3027026196"
           }
         ]
       },
       {
-        "title": "Company",
+        "title": "Resources",
         "links": [
           {
-            "label": "Our Mission",
-            "href": "#"
+            "label": "Biblical Hebrew",
+            "href": "#offerings"
           },
           {
-            "label": "The Fleet",
-            "href": "#"
+            "label": "Daily Devotional & Blog",
+            "href": "/blog"
           },
           {
-            "label": "Safety",
-            "href": "#"
-          },
-          {
-            "label": "Careers",
-            "href": "#"
+            "label": "The Architecture of Peace",
+            "href": "/blog"
           }
         ]
       },
       {
-        "title": "Support",
+        "title": "Connect",
         "links": [
           {
-            "label": "Plan a Launch",
-            "href": "#"
+            "label": "Instagram",
+            "href": "https://www.instagram.com/shalom_bible_testing7"
           },
           {
-            "label": "FAQ",
-            "href": "#"
+            "label": "Email Us (shalomben725@gmail.com)",
+            "href": "mailto:shalomben725@gmail.com"
           },
           {
-            "label": "Contact",
-            "href": "#"
-          },
-          {
-            "label": "Terms",
-            "href": "#"
+            "label": "Contact Page",
+            "href": "/contact"
           }
         ]
       }
     ],
-    "copyright": "© 2026 Space Voyage. All rights reserved."
+    "copyright": "© 2026 Branches of Love Ministry. All rights reserved."
   },
   "blog": {
-    "title": "Notes",
-    "intro": "Occasional posts about how we work, what things cost, and the questions we are asked most.",
-    "readMore": "Read the post",
+    "title": "The Living Word — Ministry Blog",
+    "intro": "Reflections, wisdom, and updates from Branches of Love Ministry — rooted in Scripture, written for everyday life.",
+    "readMore": "Read reflection",
     "backToIndex": "All posts",
-    "missingTitle": "That post has moved",
-    "missingBody": "It may have been renamed or removed. The full list is below.",
+    "missingTitle": "That reflection has moved",
+    "missingBody": "It may have been renamed or removed. The full list of ministry reflections is below.",
     "posts": [
       {
-        "slug": "what-to-expect",
-        "title": "What to expect when you get in touch",
-        "date": "2026-07-14",
-        "excerpt": "How we handle a new enquiry, what we need from you, and how quickly you will hear back.",
+        "slug": "silent-years",
+        "title": "400 Years of Silence",
+        "date": "1 June 2026",
+        "category": "Early Church / Ancient History",
+        "image": "https://cdn.sanity.io/images/sf11mtl5/production/82c6edef13182e434cb9af123be16d6c55e42429-736x414.jpg?w=1400",
+        "gallery": [
+          "https://cdn.sanity.io/images/sf11mtl5/production/32b8b8ec0a1a5324ede55b336063e5076b5e2a90-736x498.jpg?w=900",
+          "https://cdn.sanity.io/images/sf11mtl5/production/fae960b02d43b73cd4c7e8a095f55ba9421130f3-714x538.jpg?w=900",
+          "https://cdn.sanity.io/images/sf11mtl5/production/a6cf81179aa590abf5e613643b877f0d3f2fffd5-736x784.jpg?w=900",
+          "https://cdn.sanity.io/images/sf11mtl5/production/bbc745f77f69a19efba9841a16a0aa2fc241c652-602x336.jpg?w=900"
+        ],
+        "excerpt": "In Marathi (400 वर्षाचा शांततेचा काळ) — A historical and scriptural exploration of the intertestamental period between the prophet Malachi and the arrival of the Messiah.",
         "body": [
-          "Every enquiry reaches a person, not a queue. We read it the same day and reply with either an answer or an honest estimate of when we can give you one.",
-          "It helps if you can tell us roughly what you need, where you are, and when you were hoping to have it done. None of that has to be exact. A sentence is enough to start.",
-          "If what you need is not something we do, we will say so and point you somewhere better. That is quicker for you than a polite maybe."
+          "In Marathi (400 वर्षाचा शांततेचा काळ): Between the closing words of the Old Testament prophet Malachi and the announcement of the birth of John the Baptist in the New Testament lies a profound four-hundred-year period often called the 400 Years of Silence.",
+          "Though no new prophetic books were added to the canon during these centuries, history was far from still. Empires rose and fell—from Persian rule to Alexander the Great's Hellenistic wave, the Septuagint translation of the Hebrew Scriptures, the Maccabean revolt, and the rise of the Roman Empire.",
+          "Understanding this historical and spiritual backdrop illuminates the world into which Yeshua the Messiah stepped, showing how the Divine hand was preparing the nations, the language, and the hearts of the remnant for the fullness of time."
         ]
       },
       {
-        "slug": "how-we-price",
-        "title": "How our pricing works",
-        "date": "2026-06-28",
-        "excerpt": "Why we quote before we start, what changes a price, and what never does.",
+        "slug": "born-again",
+        "title": "Born Again",
+        "date": "18 April 2026",
+        "category": "Wisdom",
+        "image": "https://cdn.sanity.io/images/sf11mtl5/production/8757a129322bec91508ea488f579998afc8d4148-736x736.jpg?w=1400",
+        "gallery": [
+          "https://cdn.sanity.io/images/sf11mtl5/production/5c0030f8de03a01d948d99597c4fad18041ca214-1080x1178.jpg?w=900",
+          "https://cdn.sanity.io/images/sf11mtl5/production/46443114400a644caa48102af2f835bee9b2f0eb-896x1200.jpg?w=900"
+        ],
+        "excerpt": "born again ये शब्द मसीह प्रभु और प्रेरितों को बोलने की जरूरत क्यों पड़ी होंगी?? Exploring the scriptural meaning of spiritual rebirth by water and the Spirit.",
         "body": [
-          "We quote before any work begins, and the quote is the price unless the job itself changes. If we find something we could not have known about beforehand, we stop and tell you what it means before carrying on.",
-          "What changes a price: scope, access, materials, and timing. What does not: how the day went for us, or how busy we happen to be that week.",
-          "If you want a rough idea before committing to a full quote, ask. A range is usually easy to give."
+          "born again ये शब्द मसीह प्रभु और प्रेरितों को बोलने की जरूरत क्यों पड़ी होंगी?? When Yeshua spoke with Nicodemus by night, He declared that unless one is born again—born from above of water and the Spirit—he cannot see or enter the Kingdom of God.",
+          "Just as every good tree yields good fruit (Matthew 7:17), true spiritual transformation is not merely an outward reform of habits, but an inward renewal rooted in the living and enduring Word of God.",
+          "Throughout the teachings of the Messiah and the Apostles, being Born Again calls believers out of lifeless tradition into a living covenant walk guided by the Holy Spirit."
         ]
       },
       {
-        "slug": "questions-we-are-asked-most",
-        "title": "The questions we are asked most",
-        "date": "2026-06-02",
-        "excerpt": "A short round-up of the things people ask before booking, answered plainly.",
+        "slug": "counting-of-the-omer",
+        "title": "Counting of the Omer",
+        "date": "17 April 2026",
+        "category": "Feasts of the LORD YHWH",
+        "image": "https://cdn.sanity.io/images/sf11mtl5/production/bef17042fa7f0a579e4e4bb8441d437853ae875d-4830x6250.png?w=1400",
+        "gallery": [
+          "https://cdn.sanity.io/images/sf11mtl5/production/814e265de49a1962c57982d7f8ca37759d56888e-2415x3125.jpg?w=900"
+        ],
+        "excerpt": "• पहले फलों के पर्व से लेकर — यहाँ दिए गये पोस्टर मे आप ओमेर के गिनती को देख सकते, इसमे गिनती के साथ उनकी तारीख भी लिखी हुई है।",
         "body": [
-          "Most questions are about timing, cost and what happens if something goes wrong. Those are the right things to ask, so here they are in one place.",
-          "We keep this post updated as new questions come up. If yours is not here, send it over and we will add it."
+          "• पहले फलों के पर्व से लेकर — यहाँ दिए गये पोस्टर मे आप ओमेर के गिनती को देख सकते, इसमे गिनती के साथ उनकी तारीख भी लिखी हुई है।",
+          "In Leviticus 23:15–16, the LORD commands the counting of seven full weeks—forty-nine days—beginning from the day after the Sabbath when the sheaf (Omer) of the wave offering is brought, leading up to the fiftieth day, the Feast of Weeks (Shavuot).",
+          "Each day of the Omer count connects the redemption of Passover and the Firstfruits with the giving of the Torah and the outpouring of the Holy Spirit on Shavuot, inviting believers to prepare their hearts day by day."
         ]
       }
     ]
   },
   "legal": {
-    "notice": "This is template wording, not legal advice. Read it, adapt it to what you actually do, and have it checked before you rely on it.",
+    "notice": "Branches of Love Ministry is a Non-Denominational fellowship based in Chembur, Mumbai 400071.",
     "privacy": {
       "title": "Privacy",
       "updated": "Last updated 14 July 2026",
       "sections": [
         {
           "heading": "What we collect",
-          "body": "When you contact us we collect the details you choose to send: usually your name, your contact details, and whatever you tell us about what you need. If you visit this site we may also collect basic usage information such as the pages you viewed and roughly where in the world you were."
+          "body": "When you contact Branches of Love Ministry or register for our Biblical Hebrew courses and Shabbat gatherings, we collect only the details you choose to share, such as your name, email address, or WhatsApp contact."
         },
         {
           "heading": "Why we collect it",
-          "body": "To reply to you, to carry out work you have asked for, to keep our own records of that work, and to understand which parts of this site are useful. We do not sell your details to anyone."
-        },
-        {
-          "heading": "How long we keep it",
-          "body": "Enquiries that do not become work are kept for a limited period and then deleted. Records relating to work we have carried out are kept for as long as we are required to keep them, and no longer."
-        },
-        {
-          "heading": "Who else sees it",
-          "body": "Only the people who need it to do the work, plus the services we use to run the business, such as email and payments. Each of those handles your details under its own terms."
+          "body": "To respond to your prayer requests and enquiries, share study worksheets and Zoom gathering links, and keep you informed of ministry updates. We never sell or share your personal details with third parties."
         },
         {
           "heading": "Your choices",
-          "body": "You can ask us what we hold about you, ask us to correct it, or ask us to delete it. Get in touch and we will deal with it."
-        },
-        {
-          "heading": "Cookies",
-          "body": "This site may use cookies to keep it working and to measure how it is used. You can block cookies in your browser, though some parts of the site may then behave differently."
+          "body": "You may contact us at shalomben725@gmail.com at any time to update or remove your contact details from our fellowship list."
         }
       ]
     },
@@ -321,35 +405,23 @@ export const content = {
       "updated": "Last updated 14 July 2026",
       "sections": [
         {
-          "heading": "Who we are",
-          "body": "These terms cover your use of this website and any work carried out by Space Voyage. By using the site you accept them."
+          "heading": "Our Ministry",
+          "body": "Branches of Love Ministry is a Non-Denominational sanctuary dedicated to serving God and His people, rooted in the full authority of the Holy Scriptures from Genesis to Revelation."
         },
         {
-          "heading": "Quotes and prices",
-          "body": "Prices shown on this site are indicative unless we have given you a written quote. A written quote holds for the period stated on it, and covers the work described on it."
+          "heading": "Study Resources & Teachings",
+          "body": "All Biblical Hebrew worksheets, devotionals, and study materials provided on this site are free for personal spiritual growth and community study."
         },
         {
-          "heading": "Booking and cancellation",
-          "body": "A booking is confirmed when we have both agreed a date in writing. If you need to change or cancel, tell us as early as you can and we will do the same for you."
-        },
-        {
-          "heading": "Our work",
-          "body": "We will carry out work with reasonable skill and care. If something is not right, tell us promptly and give us a fair chance to put it right."
-        },
-        {
-          "heading": "This website",
-          "body": "We try to keep the information here accurate and current, but we do not guarantee it is free of errors. The content and design of this site belong to us unless stated otherwise."
-        },
-        {
-          "heading": "Liability",
-          "body": "Nothing here limits liability that cannot lawfully be limited. Beyond that, our liability is limited to the value of the work in question."
+          "heading": "Community Gatherings",
+          "body": "We welcome all seekers to join our Shabbat fellowships and courses in a spirit of love, mutual respect, unity, and peace (Shalom in Messiach)."
         }
       ]
     }
   },
   "pageText": {
-    "About_1": "Our Mission",
-    "Journey_1": "The Journey",
-    "Stats_1": "By the numbers"
+    "About_1": "About Us · Our Sacred Foundation",
+    "Journey_1": "Biblical Hebrew Curriculum",
+    "Stats_1": "Ministry Highlights"
   }
 } as const;
